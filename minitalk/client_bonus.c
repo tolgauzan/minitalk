@@ -61,7 +61,7 @@ static void	send_signal(int server_pid, char ch)
 		if (status < 0)
 			client_err("Err: Failed to send signal\n");
 		while (g_acknowledgment == 0)
-			;
+			pause();
 		g_acknowledgment = 0;
 		i--;
 	}

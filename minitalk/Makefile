@@ -1,6 +1,7 @@
 CC = cc
 CFLAGS = -Wall -Wextra -Werror
 RM = rm -f
+NAME = minitalk
 SERVER = server
 CLIENT = client
 SERVER_B = server_bonus
